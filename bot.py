@@ -13,8 +13,8 @@ status_mapping = {
 }
 
 activity_status = {
-    "Game": discord.Game(name=config.STATUS_TEXT),
-    "Stream": discord.Streaming(name=config.STATUS_TEXT, url=config.STATUS_URLSTREM),
+    "game": discord.Game(name=config.STATUS_TEXT),
+    "stream": discord.Streaming(name=config.STATUS_TEXT, url=config.STATUS_URLSTREM),
     "watching": discord.Activity(type=discord.ActivityType.watching, name=config.STATUS_TEXT),
     "listening": discord.Activity(type=discord.ActivityType.listening, name=config.STATUS_TEXT)
 }
